@@ -36,14 +36,15 @@ public class FroggerPanel extends JPanel {
 		x = WIDTH / 2;
 		y = HEIGHT / 2;
 
-		up = new ImageIcon("jump2.png");
-		down = new ImageIcon("jump3.png");
-		left = new ImageIcon("left.png");
-		right = new ImageIcon("walk3.png");
+		String prefix = "/images/"
+		up = new ImageIcon(prefix + "jump2.png");
+		down = new ImageIcon(prefix + "jump3.png");
+		left = new ImageIcon(prefix + "left.png");
+		right = new ImageIcon(prefix + "walk3.png");
 		
 		
-		car1 =new ImageIcon("car1.png");
-		car2 =new ImageIcon("car2.jpg");
+		car1 =new ImageIcon(prefix + "car1.png");
+		car2 =new ImageIcon(prefix + "car2.jpg");
 		
 
 		currentImage = right;
